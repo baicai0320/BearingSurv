@@ -1,0 +1,23 @@
+# Validated surv runtime. R 4.5.3 and CUDA libraries are in environment.yml.
+--extra-index-url https://download.pytorch.org/whl/cu121
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.3.2
+scikit-survival==0.22.2
+torch==2.1.2+cu121
+torchvision==0.16.2+cu121
+torchaudio==2.1.2+cu121
+tensorflow==2.11.1
+tensorflow-probability==0.19.0
+bnnsurv==0.1.3
+lifelines==0.29.0
+statsmodels==0.14.0
+pycox==0.2.3
+torchtuples==0.2.2
+rpy2==3.5.1
+tqdm==4.67.3
+pyarrow==23.0.1
+matplotlib==3.7.5
+seaborn==0.13.2
+pytest==9.0.2

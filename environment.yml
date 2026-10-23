@@ -1,0 +1,11 @@
+name: surv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - pip=24.0
+  - r-base=4.5.3
+  - cudatoolkit=11.2.2
+  - cudnn=8.1.0.77
+  - pip:
+      - -r requirements.txt

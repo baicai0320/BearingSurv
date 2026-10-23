@@ -1,0 +1,4080 @@
+{
+  "artifact_type": "fpt_v2_a_coverage_score_reference",
+  "coverage_is_posthoc": true,
+  "cp2_is_runtime_input": false,
+  "entries": {
+    "fold1_c0_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 6.332055454549845e-05,
+        "final_reconstruction_loss": 0.0603603832423687,
+        "final_train_loss": 0.060423705726861954,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 4,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 123,
+      "npz_sha256": "c7c058d390ba23831982e89345f17255e8c26f17fb01dcab67f546b3f9921aba",
+      "score_cache_key": "246f88af81151326f664d977fc2c2a25e498df0b91adc05f46ea2dcc08e1e13f",
+      "score_frame_sha256": "32de959a18568c51a211e3773c558600b2d93be8d80814e0dcb79a292cb50483",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "fold1_c0_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00011545903544174507,
+        "final_reconstruction_loss": 0.07382584735751152,
+        "final_train_loss": 0.07394130527973175,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "3": {
+              "available_records": 158,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "8f8072b5b4a88afd707faf6ca27e85e9720ae56fa8c118cd6b2a8b362d30bcfa",
+      "score_cache_key": "3d5e423ebad7fe9744dbaadeb179c40ff3e6e1c02ff5c531cf262c2188799dc2",
+      "score_frame_sha256": "c35b9c28ea458e050b518bf3d1b28714c1c48fc3c3eb9e318da77047f1732632",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        3,
+        4,
+        5
+      ]
+    },
+    "fold1_c0_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 9.112460975302383e-05,
+        "final_reconstruction_loss": 0.06809640675783157,
+        "final_train_loss": 0.06818753108382225,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 158,
+      "npz_sha256": "638a0143c04c77ccb0a3c99abb53881cf8ef97115e90806e33bbe08a9a5b2bf5",
+      "score_cache_key": "4844def8068b627620f74107f3fcf3b3698008b2d4b1ba8aee71251f2675a494",
+      "score_frame_sha256": "5bcd8b36db773a452f591f3bde7421d2e9ea600cad907ac3ac240dfb6a31bb81",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        4,
+        5
+      ]
+    },
+    "fold1_c0_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.0001318463691859506,
+        "final_reconstruction_loss": 0.072799913585186,
+        "final_train_loss": 0.07293176278471947,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 122,
+      "npz_sha256": "57afb75ea0b4045e853bdfaccb29f7f83f269bf1521bad2127efb71acf4356c5",
+      "score_cache_key": "60cf5e55e4c239afe2eb205ac5f0a0c683580a8d27ee1534576deb41b110dcbd",
+      "score_frame_sha256": "7480a8648b7752f85cbd6f82eaacbfed3f0bb3a336d9b4276db0d1d92cfc4c52",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        5
+      ]
+    },
+    "fold1_c0_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00013352085079532117,
+        "final_reconstruction_loss": 0.06888616271317005,
+        "final_train_loss": 0.06901968084275723,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 52,
+      "npz_sha256": "b6fbe147c3177e5a048b0837b44627edc28c019066c02b952d2f05b9e78649cf",
+      "score_cache_key": "2f01607b300835adb7629cc91ddac3a140c0d1782624bad2d9a1d714713e2838",
+      "score_frame_sha256": "e3b20320d2cf77cbb2048726b78b4f466fc472bb6c01dbf4a3d68a0b4f3de241",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        4
+      ]
+    },
+    "fold1_c1_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 9.141882401308976e-05,
+        "final_reconstruction_loss": 0.08323303982615471,
+        "final_train_loss": 0.08332445845007896,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 4,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 491,
+      "npz_sha256": "02debf134de48a9fa75d10d1e3691383c7d42a445d562d9638750b0bb908e789",
+      "score_cache_key": "16188111d9439497f58c9960b526fa6567cdd534a831aafcf48d5df04d6ccfb5",
+      "score_frame_sha256": "d32158e159750d970c134b3cb89d3525f4edb97c84a0859e12d59800f4be8d3f",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "fold1_c1_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00019475803128443658,
+        "final_reconstruction_loss": 0.09220854192972183,
+        "final_train_loss": 0.09240330010652542,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "3": {
+              "available_records": 533,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "f078638902a6191e492124b16ad28f7f9b33edebc3ecbb9b8c0ddfea579b82ce",
+      "score_cache_key": "80a3f6e4f9723a6931d6169fc9afe47c1bc5291cc2ad3f8eaf7ae1ce726dcd5d",
+      "score_frame_sha256": "c1c1ba9b6740ac224a2f7cc29893bb2e6a4fcc34c7da2756f95563982864d748",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        3,
+        4,
+        5
+      ]
+    },
+    "fold1_c1_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00021642973297275603,
+        "final_reconstruction_loss": 0.0986713320016861,
+        "final_train_loss": 0.09888776391744614,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 533,
+      "npz_sha256": "3329cc8368ceabc544de8caa489780f834ee3be2aae66d6717bb4335f1e32445",
+      "score_cache_key": "74351004990c0cf5aa9d079c379a68a812ec4727eb6fed6f586de8172425b9b7",
+      "score_frame_sha256": "8836754bec50a93d4973188456e54ef9635c2fe29b125d7ad5218b9bd57bd453",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        4,
+        5
+      ]
+    },
+    "fold1_c1_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00020506669534370303,
+        "final_reconstruction_loss": 0.10740809887647629,
+        "final_train_loss": 0.10761316493153572,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 42,
+      "npz_sha256": "558a7930379fcff66acd89fe26aad456d0ba49c11c42c4f9e241b8930c6044d0",
+      "score_cache_key": "87dbb3d0ddd08a344ee8057175f81c3f466505fb5b5990eb741272b66e759ec6",
+      "score_frame_sha256": "a40f312762394121a1a0aa72a20362ca3bc8c1bf84c4581fd8250765e0e6f3c5",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        5
+      ]
+    },
+    "fold1_c1_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00013095881877234206,
+        "final_reconstruction_loss": 0.06825587898492813,
+        "final_train_loss": 0.06838683784008026,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 339,
+      "npz_sha256": "abd4755ebd7e1c70b958b7f56e8ceb8bf4a4cf3ef15367fb94d2741045648088",
+      "score_cache_key": "724ac6084349559103a8f740aae680bd62c91950aae4039859d1edec7b7afb17",
+      "score_frame_sha256": "7f7acb286948cfe009016daa227f71c85f27ce10ea2639270a4c0bb9aca2752f",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        4
+      ]
+    },
+    "fold1_c2_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 4.544927287497558e-05,
+        "final_reconstruction_loss": 0.0601882878690958,
+        "final_train_loss": 0.06023373827338219,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 4,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2538,
+      "npz_sha256": "0d275e1ee099244643c8cc32c41a08b359fa5d044694f34a806e85d19152e0bc",
+      "score_cache_key": "d78fcebcad25e88668344e97d9051c12b2cbb42cd1962e48120c3a30675c0376",
+      "score_frame_sha256": "74a39036163b4741bd86fb258bab65bc9a4cf92e6015a1bcd785c0672209dd16",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "fold1_c2_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 6.381042476277798e-05,
+        "final_reconstruction_loss": 0.061315905302762985,
+        "final_train_loss": 0.06137971580028534,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "3": {
+              "available_records": 371,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2496,
+      "npz_sha256": "bb94052d9c139bcbd311f6fe1fdcb4a0d6f326040301a1f2899a2a5e4ef2576a",
+      "score_cache_key": "214550ec471dfdff47ea7c58988550264351a692d58b29a45f884f2e7ec639fc",
+      "score_frame_sha256": "ab6b7cc15436ec99a72c21c12b35fab6bbf66f3c0a103affd3d9f78cb523417e",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        3,
+        4,
+        5
+      ]
+    },
+    "fold1_c2_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 8.598202839493752e-05,
+        "final_reconstruction_loss": 0.07136349380016327,
+        "final_train_loss": 0.07144947722554207,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 371,
+      "npz_sha256": "ecb09e3d005394cdecef427f45aee2120e3b31ff62775eaf27e509fb1ba7d767",
+      "score_cache_key": "d8f83b769f525462122ca56c83083ddc3ac7573c64853c0afb58ed5809f1cb30",
+      "score_frame_sha256": "0d4fd7f3a4cd813c64461ba77cf4b6a387bc204e3e76cfb230764cda0f432488",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        4,
+        5
+      ]
+    },
+    "fold1_c2_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 8.171847002813593e-05,
+        "final_reconstruction_loss": 0.07408201321959496,
+        "final_train_loss": 0.07416373118758202,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 15
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 1515,
+      "npz_sha256": "48c9468e00aa50448d2a814ebd6fa73220ebb3272df37018c967194b5741dcdf",
+      "score_cache_key": "f0fcd1a6b802a711a30f224da4a18010c25263273015af1780cafe30cd1ca68f",
+      "score_frame_sha256": "d7f42c36c5b78be8de9e4d1679eba11fc5a59d34b45ad921afe22aae82999814",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        5
+      ]
+    },
+    "fold1_c2_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00010322442540200427,
+        "final_reconstruction_loss": 0.07515661232173443,
+        "final_train_loss": 0.07525983639061451,
+        "prefix": {
+          "healthy_window": 15,
+          "n_bearings": 3,
+          "n_records": 45,
+          "per_bearing": {
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 15
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 15
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 15
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 114,
+      "npz_sha256": "a8763422f640b79e3deefbd990c00187eae5f2e232052a11cb262e335f83305a",
+      "score_cache_key": "9f2aa6d764e26bbf5c265901cbff07ced8a731558e7508f519dacc1af12eedf8",
+      "score_frame_sha256": "2b1db79c2e869ae458b0ee91375379f7e246f6cc90e50758a453abd0af50887a",
+      "selected_profile_sha256": "4b1e021f7fc4ae8a1dad015916de6ec0379551c6d6016e8b52f380b596288bfd",
+      "training_bearings": [
+        2,
+        3,
+        4
+      ]
+    },
+    "fold2_c0_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.0588900446891785e-05,
+        "final_reconstruction_loss": 0.07297875732183456,
+        "final_train_loss": 0.0730193443596363,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 123,
+      "npz_sha256": "af1b89389f6cbe2e78938f41bf977393153986837aff3bafa3cd88dbda522dc8",
+      "score_cache_key": "8e86554c2b28d8b9d89218d39aef17e6e4a23d6b3c34be3ab97d6d7c614eac77",
+      "score_frame_sha256": "f8be5109339dd681cac2e2e21c767c0910ef9e90dc4e28f1f5d163165b5db961",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        3,
+        4,
+        5
+      ]
+    },
+    "fold2_c0_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 1.3369135558605194e-05,
+        "final_reconstruction_loss": 0.0651219313343366,
+        "final_train_loss": 0.06513530015945435,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "283e1b922e07430272895f2f86f5212af8a28fc168e3025c894c1301996027a2",
+      "score_cache_key": "bcafe542caede1358e596b4a2c5e572510d940fdad8a318a1924419a12b25419",
+      "score_frame_sha256": "40c724f821457695dc4e1454920bcbf4842a60eec97accf7cd2633c314c14a7c",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    "fold2_c0_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.6968327296781354e-05,
+        "final_reconstruction_loss": 0.06627889350056648,
+        "final_train_loss": 0.06632586196064949,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 158,
+      "npz_sha256": "9e59789591d39d588e68566250a098b7a1e452c5ac92533e4b082a43d654c83c",
+      "score_cache_key": "4dcd2a4e08cc898b15008ffdd525084fe9df5a51a6a357ed4c199114e1836012",
+      "score_frame_sha256": "6b577f8278dd093f0766abb5fedf3fdd5f087bb3094a019f74e0f9a79e40233d",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        4,
+        5
+      ]
+    },
+    "fold2_c0_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 6.0843038227176294e-05,
+        "final_reconstruction_loss": 0.07115241885185242,
+        "final_train_loss": 0.0712132602930069,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 122,
+      "npz_sha256": "9cdf07e06274edfc2e0c946a68e7b93ff44e475909a7d90934aa31bdd5201343",
+      "score_cache_key": "c4745be648a6503e3465cc364f12928dfc75325bc03c452c8b7474f11fd2738f",
+      "score_frame_sha256": "97fa486953e65ff7e1a859a796f8d9c45c65b3beb15321230e10620efe5900d0",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        5
+      ]
+    },
+    "fold2_c0_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.050947245559655e-05,
+        "final_reconstruction_loss": 0.06687714718282223,
+        "final_train_loss": 0.06691765412688255,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 52,
+      "npz_sha256": "2854ed8416e735c243e0d0dfe437c2e901c28915084dcd1fb7c88b75f552aef6",
+      "score_cache_key": "e642bb417755f8dbbf8d9b236cbeb3ebc15707c8d9958a1b0a7bebe1a0c64c0f",
+      "score_frame_sha256": "284d5f87df16245769e0ccdb144604b53caf62250aa719acfacefaf74478e176",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        4
+      ]
+    },
+    "fold2_c1_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 5.195283119974192e-05,
+        "final_reconstruction_loss": 0.08571692556142807,
+        "final_train_loss": 0.08576887845993042,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 491,
+      "npz_sha256": "85da6992f806580740eb3cfffb99cc8cd370c4a854c484510381d58b9ec13c7e",
+      "score_cache_key": "76859a1bbcab60dbc044ebcbea87b88082d93948481299e01c4352dc41c0b3fd",
+      "score_frame_sha256": "f20383141a2e39e8fc74f2936644c78c8fbb16034f11700ffe48e4a7266f654e",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        3,
+        4,
+        5
+      ]
+    },
+    "fold2_c1_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 1.0999230047067007e-05,
+        "final_reconstruction_loss": 0.0742931216955185,
+        "final_train_loss": 0.07430412123600642,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "90e37a82b01df4d010dfb0b01739830379abafdad535b7e243889bbc114da772",
+      "score_cache_key": "c1c860d57eb6c10dfa73855a40b48d8e2e18a22aea1784584ca66a14681e2de6",
+      "score_frame_sha256": "e3903dc387ff2f2ad7f125bba62eab8b62900a7e0926bf16fa1de1a6b629f6d5",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    "fold2_c1_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 5.081302697362844e-05,
+        "final_reconstruction_loss": 0.08940312638878822,
+        "final_train_loss": 0.08945393934845924,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 533,
+      "npz_sha256": "09e15c7910ebe84f65b313eb0ec67c4e2281ca09152e25955dd04903b57da04f",
+      "score_cache_key": "6ba144c7b6b845a18c9070dbb443c5ebebd5dbbf591b20b4b0933638f91b2661",
+      "score_frame_sha256": "b2c89d83d2ea654196fa6c73e8a180e48392e92b0c6b13155074bb578a358b0c",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        4,
+        5
+      ]
+    },
+    "fold2_c1_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.9175627282238565e-05,
+        "final_reconstruction_loss": 0.09166058897972107,
+        "final_train_loss": 0.09170976653695107,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 42,
+      "npz_sha256": "5710139ed61719349c759e875eda8150f2520fe320b2aa2a4c21be66e2164a36",
+      "score_cache_key": "f1c751518e6c95acf9acd8117b892bd24f94e229185d410d1ce4cab7dcf2566e",
+      "score_frame_sha256": "b71eb2067abe1468f1150576901f44d053f3b468d27cf28a531d619443be5e6c",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        5
+      ]
+    },
+    "fold2_c1_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.236253698763903e-05,
+        "final_reconstruction_loss": 0.05927855893969536,
+        "final_train_loss": 0.05932092294096947,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 339,
+      "npz_sha256": "0a4de39ba17302bb773168a36269258a0d9ffc4a7c65a61a9a7f52c9f161c48e",
+      "score_cache_key": "7471291a771372e9f70a497a017939de79e0d756f83da079ef8930abeb6115fb",
+      "score_frame_sha256": "0fa019079bc4c5bbf1d4fd06616d2ab5f3ecbd0e2b69ac82e558e26c405a3291",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        4
+      ]
+    },
+    "fold2_c2_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 2.3148821128415875e-05,
+        "final_reconstruction_loss": 0.056937480345368385,
+        "final_train_loss": 0.05696062743663788,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2538,
+      "npz_sha256": "9b5d95ae505ece01a285bcd9756ceddafe18d05708e605421e0405fc222a8dff",
+      "score_cache_key": "2786e69371cea46192c10068d7f8fe3e2d7159cd09302dd05f577730f34ba38c",
+      "score_frame_sha256": "08ac7f172d954055c1cc7a6f82ff92a3444a508d170d56a800ba2249fd7d3786",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        3,
+        4,
+        5
+      ]
+    },
+    "fold2_c2_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 5.239931245644887e-06,
+        "final_reconstruction_loss": 0.04515335460503896,
+        "final_train_loss": 0.045158594846725464,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2496,
+      "npz_sha256": "714d657c174af0b49244401a9aa2fb2ac6ed8a881775fe1a222f6144da2094a0",
+      "score_cache_key": "ab786906141e76c7cb6b146ea9f7049144fc492e7c561030d7daeb117fec61fc",
+      "score_frame_sha256": "d39d8888c1a6c1e0f496c0c3770fce8fbefe51932601cdf2a7dc4a49a871235c",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    "fold2_c2_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 2.4550793568778317e-05,
+        "final_reconstruction_loss": 0.05696521885693073,
+        "final_train_loss": 0.056989770382642746,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 371,
+      "npz_sha256": "e531ff3bf79d93cec590b32ee692fb11f6b78eec6d18164ddbb50b9fbbfd2e09",
+      "score_cache_key": "9c2c1fb30338660bc7e4c6a8d46c73195e886edfa4a500251dbccd6997c55750",
+      "score_frame_sha256": "b354cf4941308ea9cff1dcb0ecee602f13d33f4d28985378de79d062bcaee4a4",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        4,
+        5
+      ]
+    },
+    "fold2_c2_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 2.4153518097591586e-05,
+        "final_reconstruction_loss": 0.05807853862643242,
+        "final_train_loss": 0.0581026915460825,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 1515,
+      "npz_sha256": "686c874b140f59db9f09b84f85d52b2cbc58140e0b0e4acc6e36bd56e3af1158",
+      "score_cache_key": "b747053d839395be48cf0468a0a76423c79d433849a7eed62902629c7036ddb7",
+      "score_frame_sha256": "1dcd3a11e080ac5862f47d51daaf00115eaa33a37b8d6e362006ed09debd642a",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        5
+      ]
+    },
+    "fold2_c2_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.0823526433086954e-05,
+        "final_reconstruction_loss": 0.06063317134976387,
+        "final_train_loss": 0.060673994943499565,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 114,
+      "npz_sha256": "206b3157e3b83d7502cb4616ccf7a86552da3ebc8eb777e68f444f34e215f2f4",
+      "score_cache_key": "d0dafd7ece386e4ceeb39d51a201d2f6ac028112eacd5aaed6e16ae8145aabd2",
+      "score_frame_sha256": "ce118b034a37be1bf00fea2745cc9e7fba8aa948fa07732122ba67ce19534469",
+      "selected_profile_sha256": "a80d50d0ea6949e8ad00dd56530dacfc4e8ada4005a2b48a7d26db8d993698d4",
+      "training_bearings": [
+        1,
+        3,
+        4
+      ]
+    },
+    "fold3_c0_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 6.60997557133669e-05,
+        "final_reconstruction_loss": 0.06285225972533226,
+        "final_train_loss": 0.06291835755109787,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 123,
+      "npz_sha256": "29e8ebb9009b240b18139fb25ddc76026ced8632824621d3301ed3742e2e5998",
+      "score_cache_key": "778af33fcdc4d6373530ae4c7c17d6c0c0048fb31e9b1c12c288661808395ed3",
+      "score_frame_sha256": "561a35a0e9ddc92faf1a782ce0a632a2e50cc4718d7638684933f310ff1904bf",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        2,
+        4,
+        5
+      ]
+    },
+    "fold3_c0_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 8.247519872384146e-05,
+        "final_reconstruction_loss": 0.06481156498193741,
+        "final_train_loss": 0.06489403918385506,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "062b904b027d9aed68f3759453536e7332481128f358aeaee3a90efc5ac84a4c",
+      "score_cache_key": "767a7e8c8d091c6bd8fad9a386d82d7936a5ad4c28b4b030f7e01c6da8a55ca6",
+      "score_frame_sha256": "5653a33cc4ff4b22546d9e27bebbd190277d676bece41005edbe92b773a7dcc0",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        4,
+        5
+      ]
+    },
+    "fold3_c0_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 2.5928020477294922e-05,
+        "final_reconstruction_loss": 0.05650592471162478,
+        "final_train_loss": 0.056531852732102074,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 158,
+      "npz_sha256": "ca082b183f2ceb0967c959cc47b5903cf57d1b56f24a2713f4e3f7bbc52e4228",
+      "score_cache_key": "81fd7c125158aee7729702352000a9dc06751834ff7d92be3df322981276d7d1",
+      "score_frame_sha256": "228e659b86ff0864b9d022944ab2344ad03b77706be8a20a7f0860be63b5ecd5",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    "fold3_c0_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 8.920892651076429e-05,
+        "final_reconstruction_loss": 0.06441246718168259,
+        "final_train_loss": 0.06450167670845985,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 122,
+      "npz_sha256": "e2395058cab7bea30c68a36cfdd2d09ba03f7fbcc2c6689877f0bbd95fe2e302",
+      "score_cache_key": "81a0630ea5771f0d553dc5d5bc61f19c77fd435fadd6b2900d6900a53d3e85d5",
+      "score_frame_sha256": "93d7810009e4a3049cca46c3cacbdf82c152db71b679bcda824f7b9944d3b934",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        5
+      ]
+    },
+    "fold3_c0_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 6.549299723701552e-05,
+        "final_reconstruction_loss": 0.0666716918349266,
+        "final_train_loss": 0.06673718616366386,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 52,
+      "npz_sha256": "a8d775bf3b4fd618dedf63b149891a08f1bb6800e3cb10cfee7e01943d9e31f0",
+      "score_cache_key": "e0285f5117a320d9b7d1e4d385e6a9a5aad2c2ac9ae3ff480abcba8cdd0ff5e8",
+      "score_frame_sha256": "bf7aa03ca13ea7fab5593bddeef22a5a4c154c3a3b7ae632eb01f352093b02a7",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        4
+      ]
+    },
+    "fold3_c1_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00010451687921886332,
+        "final_reconstruction_loss": 0.09088414534926414,
+        "final_train_loss": 0.09098866209387779,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 491,
+      "npz_sha256": "598dd31b8a5aa5e2a8be8864161383b9694b3fdc5e0ddbee0a8c52b778d12e0c",
+      "score_cache_key": "9c1e57c069d4ebe6c43808629ad6202eddf68dddb3fbbbdb2f6a513076726a1a",
+      "score_frame_sha256": "206afc68a3e893c96ffe5b6110b172518722a4d23ba2c43dc96090f640c2de4c",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        2,
+        4,
+        5
+      ]
+    },
+    "fold3_c1_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 9.752424011821859e-05,
+        "final_reconstruction_loss": 0.08721879124641418,
+        "final_train_loss": 0.08731631562113762,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "3367d7794bb50979765f71f97a8a18fedb3245d33ff2ba2e7e0f678ac57b9956",
+      "score_cache_key": "af99fedc0d5ce7766d08274e4dd3b4ef2207b30f434da126e52d96be1cf50085",
+      "score_frame_sha256": "c25c6510adb000478d5ccff13dc5504e1613dae98622f8335ad7f2aef17bd0b7",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        4,
+        5
+      ]
+    },
+    "fold3_c1_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 3.211386501789093e-05,
+        "final_reconstruction_loss": 0.0760902613401413,
+        "final_train_loss": 0.07612237582604091,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 533,
+      "npz_sha256": "7dbd3faf4bc07ece9d298f0da04e7c922449c3d1c675b5b64110f97e4e7ce2ca",
+      "score_cache_key": "e3695306c0247a089b0fa2a39c3510c2632aebab884bc2f97f642135aac7f109",
+      "score_frame_sha256": "a10fe865c38d1bea2811767a9e5eec3ab60163a346dcba2f10941ff379ffd46f",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    "fold3_c1_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 0.00010760993245639838,
+        "final_reconstruction_loss": 0.09580766409635544,
+        "final_train_loss": 0.09591527655720711,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 42,
+      "npz_sha256": "e7acb961e5ecf37aa6d79619f8655a55f7c088a2069e13076f7b21cd9d78cc2e",
+      "score_cache_key": "dea419946e4c601a6c9277d403524a67142eb6e88db4cf046dfa09c3de327945",
+      "score_frame_sha256": "903345b4e5ffeceffa8fdb496b1c3dfe6a63bc00cfaf02a0cf243781e32eed18",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        5
+      ]
+    },
+    "fold3_c1_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 8.248258382081985e-05,
+        "final_reconstruction_loss": 0.06185021996498108,
+        "final_train_loss": 0.061932701617479324,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 339,
+      "npz_sha256": "afc244bb18d2f1caac7cec57738734d9610baa9dacfa987ccb464f56104e00d4",
+      "score_cache_key": "6912a6a12d66c76feab0b99164f2710989fca63d685f40e3d3b616f12471d655",
+      "score_frame_sha256": "f4abdab5d65fa2458508ff7d92ecdaf3eab82e6ccb7603ce4f6bbdd455af3605",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        4
+      ]
+    },
+    "fold3_c2_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 5.553582923312206e-05,
+        "final_reconstruction_loss": 0.06758316606283188,
+        "final_train_loss": 0.06763869896531105,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2538,
+      "npz_sha256": "03db3ea2eed00c122481435eda0ba47479b0ba2969fc4b7aab58eca537c6d40b",
+      "score_cache_key": "b26aafd8ed3cada65d6e5c1410420333ae9199fca0a6e5036a2936656a5b7d76",
+      "score_frame_sha256": "fd1466faaa9d46bb19effa0a0d9e83efd1cfb6791d4167a18ce3963e8a9ddf18",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        2,
+        4,
+        5
+      ]
+    },
+    "fold3_c2_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 4.3597936382866465e-05,
+        "final_reconstruction_loss": 0.057204470038414,
+        "final_train_loss": 0.0572480671107769,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2496,
+      "npz_sha256": "8d121dfc002cee1ebae87ab9625d204c42665c373186f72d1d7ffb0e131e0f2e",
+      "score_cache_key": "ee4bcd2dab037cf871dc07cce4ace52233f24245bc20b9b6b8d9cf1437f52aed",
+      "score_frame_sha256": "8f96b2484c2f6aed0d162bf46a9e07a660a99fcceaf93df4b67251d4a94b5c60",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        4,
+        5
+      ]
+    },
+    "fold3_c2_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 2.0645558834075928e-05,
+        "final_reconstruction_loss": 0.06026901428898176,
+        "final_train_loss": 0.060289659847815834,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 371,
+      "npz_sha256": "3563a883e8a61411ec28a77d3385592d7c7d79488120b3b826e8563c8c8064ce",
+      "score_cache_key": "82ceb1ba5d40266d60ad7a976bd7f0ef71b02fd2668bda22856a72c77f9d0248",
+      "score_frame_sha256": "22d112b4b203cd369f4c69ebf075d9c34adf938d724bec418c864a8ffc0a419d",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    "fold3_c2_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 6.224547723832075e-05,
+        "final_reconstruction_loss": 0.07170753180980682,
+        "final_train_loss": 0.07176977768540382,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 1515,
+      "npz_sha256": "05268f07685f01ba31890c6c03a35a6852bc2352e56f15adf004b00b3b26813c",
+      "score_cache_key": "0175b6bc24421f14582518a178c03535cbee7f7702a291fc27e0f158035f7776",
+      "score_frame_sha256": "293d2f7a6a8d5b4a75c03b175e8236a8c007207d7c87b15ef3bed1256d17204f",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        5
+      ]
+    },
+    "fold3_c2_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.1,
+        "epochs": 200,
+        "final_kl_loss": 7.458849358954467e-05,
+        "final_reconstruction_loss": 0.07381878048181534,
+        "final_train_loss": 0.07389337196946144,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 114,
+      "npz_sha256": "a3fce671c4b9f031c281e38522419d5fb5db596136cff8bc055c3624dd147ccf",
+      "score_cache_key": "75f0386f3f06a83f32d3835f2df8e1ef4b14e3c262723ccd42e257107e5a6a5a",
+      "score_frame_sha256": "54482717e458c559c2f0a334b6a89b639bfa15a9edd84c8124a8ed0166da60e7",
+      "selected_profile_sha256": "3c78c38c284bead3907adb2a7e523ad1ea7f1bd59c42585d357b0a89e4fe6161",
+      "training_bearings": [
+        1,
+        2,
+        4
+      ]
+    },
+    "fold4_c0_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.617404192686081e-05,
+        "final_reconstruction_loss": 0.06962636858224869,
+        "final_train_loss": 0.06967254355549812,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 123,
+      "npz_sha256": "7b16c402a710464d9d64c226c16978495098c63a9a5ec2ead787360c680225be",
+      "score_cache_key": "0dee08e6a7501dd9911e7988324f336dafdc7434ea525f61c22255e2abe4172f",
+      "score_frame_sha256": "a0ee15de18d1ef981356a75c6716c1e1c5e338d295562caba0e3b1a68b9d0b89",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        2,
+        3,
+        5
+      ]
+    },
+    "fold4_c0_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 6.0843038227176294e-05,
+        "final_reconstruction_loss": 0.07115241885185242,
+        "final_train_loss": 0.0712132602930069,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "e999537750704d390cdeea8a587296a8d3e846f5ec9b3427732983978dc044fe",
+      "score_cache_key": "716ec6f46a12fd5371fa95190e6d212b44e93071d87af15f29d822d9e75cc90a",
+      "score_frame_sha256": "60264028c1890bf48bf5238a3bfa086cc0753c48a48462d1bb7edcd430f6b6c4",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        3,
+        5
+      ]
+    },
+    "fold4_c0_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.771877320308704e-05,
+        "final_reconstruction_loss": 0.06607593968510628,
+        "final_train_loss": 0.06612365692853928,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 158,
+      "npz_sha256": "e4bde9b6d00ae008768a163c35301143c519c943d2da8f2e8bfbd6b5ed6f4bb5",
+      "score_cache_key": "fc25ade6ff36d384b54229eb2f6a5bfbaa549f7dcbb76c609672749b2a6a79c1",
+      "score_frame_sha256": "05ac6e915554646330974f8c67b7dcd1edba209654c2ee6157beacddf559a025",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        5
+      ]
+    },
+    "fold4_c0_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 1.85739869872729e-05,
+        "final_reconstruction_loss": 0.06586999197800954,
+        "final_train_loss": 0.06588856751720111,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 52,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 122,
+      "npz_sha256": "212d20b9082c40e1e9352acb3e3e6642bbbdc87e967790205319ac32fe40deb3",
+      "score_cache_key": "5b7a61d08fbb23f118c6c0476b527b329bcce6d230815a36f9600d7cee04a542",
+      "score_frame_sha256": "53d84d9c818449d7ba1bb5a97ddfeb879040c192a871383d32c178653c5c8db9",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    "fold4_c0_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 6.0851087255286984e-05,
+        "final_reconstruction_loss": 0.07357999682426453,
+        "final_train_loss": 0.0736408494412899,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 52,
+      "npz_sha256": "e094ff5e309c68b960e282f0930de7a78f45d0eab1bcf8cff9367afc4e1b750b",
+      "score_cache_key": "4cbe96d2972f2d3d099e4b2057e4b6c1656df6bc7791b8c59eb01f19804b1a75",
+      "score_frame_sha256": "f045e2bd0acf068a78a2b463bfdb52587d57712e888b5760415654f79c8aa31a",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        3
+      ]
+    },
+    "fold4_c1_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 5.209372829995118e-05,
+        "final_reconstruction_loss": 0.09477552399039268,
+        "final_train_loss": 0.09482761472463608,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 491,
+      "npz_sha256": "be9306aafbf720a260acdcb5063bbbe5a8fb8c5f75d2de0678a5833ec1602629",
+      "score_cache_key": "8136088860fa9641ef2a64a31f86832c6816f3d39cbd23a8b203ba7f7351841c",
+      "score_frame_sha256": "44a374450364d412234139287c83738b768a30a672a0d3505040f737f09f1542",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        2,
+        3,
+        5
+      ]
+    },
+    "fold4_c1_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.9175627282238565e-05,
+        "final_reconstruction_loss": 0.09166058897972107,
+        "final_train_loss": 0.09170976653695107,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "cc77748d5ca5e06177044d24555a463818e96bc0226bf36a1d920fcc8088fc09",
+      "score_cache_key": "c8b3989d2a700533afbae6a70eba9066c43405e3c4b0dee157ae73d55d40683a",
+      "score_frame_sha256": "fb666def15286b90333a1c744fc3d5ccf2d20c8ae3e0dfb51c4c6ec9fae1431a",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        3,
+        5
+      ]
+    },
+    "fold4_c1_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.638425525627099e-05,
+        "final_reconstruction_loss": 0.09532782062888145,
+        "final_train_loss": 0.0953742042183876,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 533,
+      "npz_sha256": "11867d41faaa5f1f55c85ac2bffdcea29d16a3c2f28f8b8ddc0f496984f72e6a",
+      "score_cache_key": "b3aa5d020040176c0ad10063d16c481d27f826ba78f3041f4d014e28bfe8952b",
+      "score_frame_sha256": "dea53f4ec3ca333c615d36d9dcf54d65c7122543756abd664137cf92a012e8fd",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        5
+      ]
+    },
+    "fold4_c1_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 1.0017616053422293e-05,
+        "final_reconstruction_loss": 0.0745611401895682,
+        "final_train_loss": 0.07457115749518077,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 339,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 42,
+      "npz_sha256": "25dbbadcf834dc86fd7b385168f47f2521d1545059ab7c45838cad6d92d1a20a",
+      "score_cache_key": "4ddea46ba8d355576eca4b31479f17bdc10d385964a5c714859b8602e2fae416",
+      "score_frame_sha256": "4ba99b77bef2f63645acf585dc1b94ef49d09301293b640fc3b9f5764a5cd728",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    "fold4_c1_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 2.9673667086171918e-05,
+        "final_reconstruction_loss": 0.05029284209012985,
+        "final_train_loss": 0.0503225140273571,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 339,
+      "npz_sha256": "36c90b92074b845adbff557f221765b2c996c45210b15e84927b1d1752b4eedc",
+      "score_cache_key": "b1633d6f072dd30db83a2211822d74d2153fa507f064e23c3fc8884daef62ace",
+      "score_frame_sha256": "ae5ec4c834ec3772e04bdd8786931f00eb0c3fb8cab9c92cc9f9bd37a4828a32",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        3
+      ]
+    },
+    "fold4_c2_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 2.6889478249358945e-05,
+        "final_reconstruction_loss": 0.06879090517759323,
+        "final_train_loss": 0.06881779432296753,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2538,
+      "npz_sha256": "510f90a57194dd726fc23abbcf53505e2b18936ec3933d649e6a495eb189dc7f",
+      "score_cache_key": "4d5381094e2bd96df8767c70f5bdb879be3e64faf15d244ec19e574e6ae93c34",
+      "score_frame_sha256": "ee4f7dad1d6551d03f6ad8557a4e8d4442d4ba5b17cca739fba1646b7259ba25",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        2,
+        3,
+        5
+      ]
+    },
+    "fold4_c2_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 2.4153518097591586e-05,
+        "final_reconstruction_loss": 0.05807853862643242,
+        "final_train_loss": 0.0581026915460825,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2496,
+      "npz_sha256": "e27ceff6df3e9f867e78293371cbdd60f778e22f06fb4044f0cc5a2591f4b33e",
+      "score_cache_key": "c567db08c3bd2f99a1a3fab1467994f957e8b1f733483ec8be0507ace924d3c4",
+      "score_frame_sha256": "2216eccec0660738e9ea3ded9465d1d9fc50c98d1830b73d50a68389a1a0827d",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        3,
+        5
+      ]
+    },
+    "fold4_c2_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 3.789611400861759e-05,
+        "final_reconstruction_loss": 0.07368539646267891,
+        "final_train_loss": 0.07372329011559486,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 371,
+      "npz_sha256": "447a67c7dfd3120f7f3084d3aad1109698d1c428889b6cd06e46f2a5d48054b2",
+      "score_cache_key": "407f45c76733503a52007a93fd401e4ebbe1be370c093c2b3c472b7c86309d4d",
+      "score_frame_sha256": "343ca74759b78d6dfeb8ef7c8b5a61a82402ae81904c9069685a0f12c7f28641",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        5
+      ]
+    },
+    "fold4_c2_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 6.764506300290425e-06,
+        "final_reconstruction_loss": 0.06227655584613482,
+        "final_train_loss": 0.062283320973316826,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "5": {
+              "available_records": 114,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 1515,
+      "npz_sha256": "e355ed824c7c07cb17ba87209b76930ac9447218e91a29654740507f6ebb38f6",
+      "score_cache_key": "c5a0213cbf562b5eb1211651ea7d9cbf57f3a3217115e05b312e92093c30a521",
+      "score_frame_sha256": "2c8d5dd60924edbe31ee4d5874d357265510491c0c7cb376f18035fc18faf040",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    "fold4_c2_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.870690645475406e-05,
+        "final_reconstruction_loss": 0.07789171114563942,
+        "final_train_loss": 0.07794041559100151,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 114,
+      "npz_sha256": "3ff4fe75fd23a4f6ded63b5c5bdd70d46a91f13c73bbcca1dc8d1f64fea3e8b9",
+      "score_cache_key": "ab63ed619de6b2a4f3f65fb46d802f3783ad0863e428994d841a96c40641c88c",
+      "score_frame_sha256": "62caa92512d0649f1b435e9514096997e857d0308097a2d2d7c892bc16ef656e",
+      "selected_profile_sha256": "ea9a339c0caba2d6214cd81b080e817590dec6b290a9a4c87fb9a39aabdc1d6f",
+      "training_bearings": [
+        1,
+        2,
+        3
+      ]
+    },
+    "fold5_c0_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.29726205766201e-05,
+        "final_reconstruction_loss": 0.060610150918364525,
+        "final_train_loss": 0.06065312400460243,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 123,
+      "npz_sha256": "427a4d215e53a9a8557d4a94ec2e19c48fe34782949aec6a7b535e6d14fa8d56",
+      "score_cache_key": "c512dbbb34e8791f148abde4157edd5d93a67516ca40ed5cc77faeccecf75369",
+      "score_frame_sha256": "2e1acf10d703b120e86df88ba99a6fa6e57e0d8ca507fea2c409d3cf6ca4f845",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        2,
+        3,
+        4
+      ]
+    },
+    "fold5_c0_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.050947245559655e-05,
+        "final_reconstruction_loss": 0.06687714718282223,
+        "final_train_loss": 0.06691765412688255,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "f454403ca9b5de30eecbec869a2aba539873f2e8b7686c120c75e648c7d651e4",
+      "score_cache_key": "b9316102fc2a326ae7993dc6d7585bb39ec7c812cc9894d7bf7d938350c9d43f",
+      "score_frame_sha256": "1ea75a39f0cf4577fef6c6cd88185a7ef5837a768e830ed73afbac136a222d9f",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        3,
+        4
+      ]
+    },
+    "fold5_c0_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.1456094550085254e-05,
+        "final_reconstruction_loss": 0.06543140113353729,
+        "final_train_loss": 0.06547285616397858,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 158,
+      "npz_sha256": "1abd36386a97929d22058d15d3ce7d5e6c895d6da25c967e363e597de59d8a00",
+      "score_cache_key": "d7697a6f8b499262772a9faead77cf4640fc493af6abfe0bdebb5a1e4caeac8b",
+      "score_frame_sha256": "843e7dc7f0b23c608cfa92dc777d721ea70fe8192b25198166f1d8afa2a41c0e",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        4
+      ]
+    },
+    "fold5_c0_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 6.0851087255286984e-05,
+        "final_reconstruction_loss": 0.07357999682426453,
+        "final_train_loss": 0.0736408494412899,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 122,
+      "npz_sha256": "b6253fa9b4b19e54ac0e567e5f7aec34e5d21e1d9c0a2121ee889d01ac35c85d",
+      "score_cache_key": "a19d37311787ea2b0163721093ca6ac062757010a890f223ecc2ce397d14ab6b",
+      "score_frame_sha256": "c207b00f955c0159f555872bde9675236f6ec8dbbec5eae1a3acbcd038f30271",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        3
+      ]
+    },
+    "fold5_c0_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 1.4495414992173513e-05,
+        "final_reconstruction_loss": 0.06122501194477081,
+        "final_train_loss": 0.06123950704932213,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 123,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 158,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 122,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 52,
+      "npz_sha256": "bc490757686a5cd777bc4c23636e80af3179c4fe23c7d3859d39f9f398d8389a",
+      "score_cache_key": "48c3a5b3bf5a7674dfd5d333f7366166eae74a169d60230eaec4f568d34b1931",
+      "score_frame_sha256": "247a0e6ef90f64b8e850e4187553ee6c8f90c8c6c1636813971fbbc5f581555d",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "fold5_c1_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.624854773283005e-05,
+        "final_reconstruction_loss": 0.06434322707355022,
+        "final_train_loss": 0.06438947655260563,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 491,
+      "npz_sha256": "f20c708135178c34e85840ca844f34a7dedbd0046fd353f426a9ec1e1d8f544d",
+      "score_cache_key": "a406cae097375f646b2440941d93c68060d136e00b58c6a33581a1a052ba9259",
+      "score_frame_sha256": "ccc51cf0b4f94cc2d1900a1ad1dc0e13e020a7ff0530d75d67624fcf00dd7ef2",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        2,
+        3,
+        4
+      ]
+    },
+    "fold5_c1_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.236253698763903e-05,
+        "final_reconstruction_loss": 0.05927855893969536,
+        "final_train_loss": 0.05932092294096947,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 161,
+      "npz_sha256": "a335b32fdcdbbc56938d208b119d191e9ca745390fc0a6a72da0b6a654e7a9d4",
+      "score_cache_key": "2f54fb472effd53de91d5d6be425fe6b965d829f4048dbe70193374ec065d436",
+      "score_frame_sha256": "ab8c930583d3c6cccd282112ad736e826dad532835f52728a09f01bc072ddbac",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        3,
+        4
+      ]
+    },
+    "fold5_c1_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 3.648728943517199e-05,
+        "final_reconstruction_loss": 0.06223461404442787,
+        "final_train_loss": 0.062271103262901306,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 533,
+      "npz_sha256": "5fd7fa3369b31e38c8cb4850303ef737f16055f055040de825a6c4743e770d18",
+      "score_cache_key": "1cf4f50b63cbf17c1d2fecbf9f9d4f03365881513c345ed8e4c0a161b1204292",
+      "score_frame_sha256": "467e5d90c9aa9259bce9b40091bea7d339b4d332c13aedf86605712f43b92e14",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        4
+      ]
+    },
+    "fold5_c1_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 2.9673667086171918e-05,
+        "final_reconstruction_loss": 0.05029284209012985,
+        "final_train_loss": 0.0503225140273571,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 42,
+      "npz_sha256": "50cb3b0fb89d26b41c5e0582de726b1320a27c3345a0fe7db4d11ec2db22dea4",
+      "score_cache_key": "db518737c655f4c0e6c625f912898a1d247d681c46b1337dc8e2688bb7e159a9",
+      "score_frame_sha256": "917498fca59e0c67941f93ecfa6e89717b659f80e46a96f9df165939baff2245",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        3
+      ]
+    },
+    "fold5_c1_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 1.2363928059736887e-05,
+        "final_reconstruction_loss": 0.050606776028871536,
+        "final_train_loss": 0.050619141509135566,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 491,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 161,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 533,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 42,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 339,
+      "npz_sha256": "ff665f0aec49d1c4bc7a1974665a684719ffcfe6cb6c4c3eae2681619162c824",
+      "score_cache_key": "539f1caaf39147596da3b7b3407883c5549a2fdec8cb358456684a07e7bb167f",
+      "score_frame_sha256": "881317170a132c264927cb4c4cd9f10e02f32a7ad19a87b33047c178a204bd82",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "fold5_c2_b1": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 3.036317866644822e-05,
+        "final_reconstruction_loss": 0.07196425646543503,
+        "final_train_loss": 0.07199461758136749,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2538,
+      "npz_sha256": "75ac6a081418b66af6b839596b366cd06ac1287c166f3eb5057b5a00d6130221",
+      "score_cache_key": "3511579a950f88c489601ee466436f431a4c7a4dc59f846e4e37bd7e9e510ecc",
+      "score_frame_sha256": "bbdb17e0117677892930ee1e88cd442fda8e80f3d95bba7f523cbda5e890493a",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        2,
+        3,
+        4
+      ]
+    },
+    "fold5_c2_b2": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.0823526433086954e-05,
+        "final_reconstruction_loss": 0.06063317134976387,
+        "final_train_loss": 0.060673994943499565,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 2496,
+      "npz_sha256": "eee32ddd368c2a96e7c34347346c47d01d6767c7e78a72b2dcbbf4757965b535",
+      "score_cache_key": "817d5c9eca9bdf0333f982ce621e77c175c9e14cf1be2e1ac72b9ffd3fb658f3",
+      "score_frame_sha256": "9a0266c6a9832d392f63a9f8cf9cbee673a75844d4294f0302cec66e4794a3fc",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        3,
+        4
+      ]
+    },
+    "fold5_c2_b3": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.242693285050336e-05,
+        "final_reconstruction_loss": 0.07700977846980095,
+        "final_train_loss": 0.07705220580101013,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 371,
+      "npz_sha256": "5714eff3bb3cd0e7ff0234393d25b6d93065cb13468e7bcb36761cb1ef681aa6",
+      "score_cache_key": "e2e28041daa8592b8472b547ce8f2781b5d858869a4dddefc9fa4147051c1ad5",
+      "score_frame_sha256": "7663b42af09e60684e77be953cd8a801975bb977d90c965094106104fc3a4e29",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        4
+      ]
+    },
+    "fold5_c2_b4": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 4.870690645475406e-05,
+        "final_reconstruction_loss": 0.07789171114563942,
+        "final_train_loss": 0.07794041559100151,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 3,
+          "n_records": 60,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 1515,
+      "npz_sha256": "875a3ad8892d43e2fab9c7b220d6f7e0eaa076256df322e1a49866259d7911e7",
+      "score_cache_key": "9e4255c696f38c04ec1947666a6fa039c8c1fda9df9bc2587c050564f008e900",
+      "score_frame_sha256": "9d516e0014b98177da65db1352c057e53baa457f3ee35f70792aeb68e60e7270",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        3
+      ]
+    },
+    "fold5_c2_b5": {
+      "columns": [
+        "reconstruction_FTF",
+        "epistemic_FTF",
+        "reconstruction_Fr",
+        "epistemic_Fr",
+        "reconstruction_BSF",
+        "epistemic_BSF",
+        "reconstruction_BPFO",
+        "epistemic_BPFO",
+        "reconstruction_BPFI",
+        "epistemic_BPFI",
+        "timeline"
+      ],
+      "fit": {
+        "dropout_rate": 0.3,
+        "epochs": 200,
+        "final_kl_loss": 8.34899644056956e-06,
+        "final_reconstruction_loss": 0.06039730831980705,
+        "final_train_loss": 0.060405656695365906,
+        "prefix": {
+          "healthy_window": 20,
+          "n_bearings": 4,
+          "n_records": 80,
+          "per_bearing": {
+            "1": {
+              "available_records": 2538,
+              "healthy_records": 20
+            },
+            "2": {
+              "available_records": 2496,
+              "healthy_records": 20
+            },
+            "3": {
+              "available_records": 371,
+              "healthy_records": 20
+            },
+            "4": {
+              "available_records": 1515,
+              "healthy_records": 20
+            }
+          }
+        },
+        "random_seed": 42
+      },
+      "n_samples": 114,
+      "npz_sha256": "88b69dfa96d223a6a8bbd5b59095e4822e763b0180d1a078e53f435915ffb49b",
+      "score_cache_key": "f2de400944fd241a3cc10201927456c791763ce7b2b52e52c9c7191c21a067d8",
+      "score_frame_sha256": "e90cf7b78c804666495a446bf8df22aab18a34598875c789aa71799e85a773ba",
+      "selected_profile_sha256": "68c25d6bb064d26e1b7b03f211b328ca62e7256de22a23a5b745df283821d0af",
+      "training_bearings": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "fpt_configuration_sha256": "305257a34171e05c6dce54cbd2a9b3d1a687ef56fceea06af90b95b5daa738fd",
+  "historical_environment": {
+    "device": "cpu",
+    "platform": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.19 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 16:41:31) [MSC v.1929 64 bit (AMD64)]",
+    "runtime_versions": {
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scikit_learn": "1.3.2",
+      "torch": "1.13.1+cu117"
+    }
+  },
+  "historical_feature_files": [
+    {
+      "bearing_id": 1,
+      "condition_id": 0,
+      "sha256": "5f6ffdaffed4ee86216beac084284a4a3419984abf36c39ce14032f1967db0bf"
+    },
+    {
+      "bearing_id": 2,
+      "condition_id": 0,
+      "sha256": "0124d3eb95ff1fd2d6a187c9dd7f8429b648a39a648f7ded7475cd1f3228394b"
+    },
+    {
+      "bearing_id": 3,
+      "condition_id": 0,
+      "sha256": "afbbd8c7cd010952418532832e647596e1612f99017914860fad3ff95f2df71f"
+    },
+    {
+      "bearing_id": 4,
+      "condition_id": 0,
+      "sha256": "e8be3920b3ac8eb17e1a0ec846a236bd6542e04d60b08917937925393a17f2dd"
+    },
+    {
+      "bearing_id": 5,
+      "condition_id": 0,
+      "sha256": "82dd110aaa841e99b3bacdf63d67541422dcf740954599fda250620f188da4f7"
+    },
+    {
+      "bearing_id": 1,
+      "condition_id": 1,
+      "sha256": "41c096ee48971f41f098d2c752e29fc8758c91321ce5546226f2503416b004ca"
+    },
+    {
+      "bearing_id": 2,
+      "condition_id": 1,
+      "sha256": "04094fe4307eba3a683cf0d6701ab80275cd55544f90ca86c246b6c7114b3ede"
+    },
+    {
+      "bearing_id": 3,
+      "condition_id": 1,
+      "sha256": "1bc369ee46c5031c7126c49041c6d2e39f0e623ad4eac7bdf16d96e1bef9f137"
+    },
+    {
+      "bearing_id": 4,
+      "condition_id": 1,
+      "sha256": "830a7a34839017b40850cdb91e8abd47321a75e5b3285bd8bece67b8a244bc0e"
+    },
+    {
+      "bearing_id": 5,
+      "condition_id": 1,
+      "sha256": "78dae9e3caf3e4369d96db40d1bdb3c940b781f9a367d0c0fbe36becc23df1bf"
+    },
+    {
+      "bearing_id": 1,
+      "condition_id": 2,
+      "sha256": "e022ecdd9b63802bc8470ee913e01405880d0d00146b40527a1d0444433e9359"
+    },
+    {
+      "bearing_id": 2,
+      "condition_id": 2,
+      "sha256": "0fd40a79bbf0128e287cbc6a156a25966047f8e32eb1821224a4e44ce4d90336"
+    },
+    {
+      "bearing_id": 3,
+      "condition_id": 2,
+      "sha256": "cc6c2572c35f2c4418075f70969933aec08fb06184dd511cda0f4d10c1406c39"
+    },
+    {
+      "bearing_id": 4,
+      "condition_id": 2,
+      "sha256": "9bc315f50d18315cdbe71e61faa3d90a290e3dee9ea7110bcf1f8bda35374db7"
+    },
+    {
+      "bearing_id": 5,
+      "condition_id": 2,
+      "sha256": "ff2b4143ce8ec92bda594e15b3c003358fe60709d2e5c99197bd8d699c3167f0"
+    }
+  ],
+  "labels": {
+    "filename": "labels.csv",
+    "sha256": "e4ee7495a59daa674afcd883fae8f083a250ab469ffc1a2f77bda58610c9dd4e"
+  },
+  "normalization": "strip CSV cell padding; require original byte hash after serialization",
+  "schema_version": 1,
+  "seed": 42,
+  "source_csv_sha256_before_normalization": "1bd8beea24666ba86adb9a2be1e3684e46c076c584f165ed54843d62d62cf057",
+  "source_manifest_sha256": "431b421d6d959f9c1dbaebacac7192d1675164c2b9ba1f28defdd7bad6d21019"
+}

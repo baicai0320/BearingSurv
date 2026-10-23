@@ -1,0 +1,44 @@
+# XJTU-SY inputs and generated artifacts
+data/
+outputs/
+results/
+plots/
+
+# Databases, caches, checkpoints, and generated reports
+*.db
+*.sqlite
+*.sqlite3
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+!fpt_detection/reference/scores/*.npz
+*.pkl
+*.pickle
+*.log
+
+# Python and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Editors, coding agents, and local workspace metadata
+.claude/
+.codex/
+.agents/
+.kiro/
+.vscode/
+.idea/
+.mcp.json
+*.code-workspace

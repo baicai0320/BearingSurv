@@ -1,0 +1,4 @@
+# Keep byte-verified reference artifacts identical across Git checkouts.
+fpt_detection/reference/labels.csv text eol=lf
+fpt_detection/reference/reference.json text eol=lf
+fpt_detection/reference/scores/*.npz binary
